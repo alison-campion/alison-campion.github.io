@@ -15,8 +15,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a third year PhD student in Economics and Public Policy at Tufts University. Broadly, I am interested in development and urban economics, with a focus on rural-urban migration. 
+I am a fourth year PhD student in Economics and Public Policy at Tufts University. Broadly, I am interested in development and urban economics, with a focus on rural-urban migration and spatial frictions in public service delivery.
 
-Before starting grad school, I was a Research Associate at [Development Data Lab](https://www.devdatalab.org/) where I worked with large administrative datasets in India as published on the [SHRUG](https://www.devdatalab.org/shrug) platform. While there, I also worked with a project management team to guide the development of the National Data and Analytics Platform, [NDAP](https://ndap.niti.gov.in), a site that harmonizes administrative datasets across time and space to ensure public data is truly publicly accessible.
+Before starting grad school, I was a Research Associate at [Development Data Lab](https://www.devdatalab.org/) where I worked with large administrative datasets in India as published on the [SHRUG](https://www.devdatalab.org/shrug) platform. While there, I also worked with a project management team to guide the development of the National Data and Analytics Platform, [NDAP](https://ndap.niti.gov.in), a site that harmonizes administrative datasets across time and space to ensure public data is truly publicly accessible. I was also previously a Data Scientist at Kimetrica LLC (now American Institutes for Research) where I worked on food security monitoring in East Africa.
 
 
