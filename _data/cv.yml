@@ -3,11 +3,10 @@
   contents:
     - name: Full Name
       value: Alison Campion
-    - name:  Program
+    - name: Program
       value: Neubauer Family Economics and Public Policy Program <br> The Fletcher School and the Graduate School of Arts & Sciences at Tufts University
     - name: Languages
       value: English (native), French (intermediate)
-
 
 - title: Education
   type: time_table
@@ -26,7 +25,7 @@
   type: nested_list
   contents:
     - title: Development Economics
-      items: 
+      items:
         - Urbanization in low and middle income countries
         - Rural-urban migration
         - Economic mobility
@@ -77,11 +76,11 @@
   type: time_table
   contents:
     - year: 2016
-      items: 
+      items:
         - Arthur F. Buddington Thesis Award <br> (Outstanding senior thesis in the Department of Geosciences)
         - Best Undergraduate Talk - <a href="https://researchday.princeton.edu/">Princeton Research Day</a>
     - year: 2014-2016
-      items: 
+      items:
         - Environmental Scholar - <a href="https://environment.princeton.edu/education/internships/environmental-scholars-program/">High Meadows Environmental Institute</a> <br> (formerly Newton Family Scholar)
 
 - title: Presentations
@@ -95,4 +94,3 @@
   type: list
   contents:
     - Python, Stata, R, Matlab, ArcGIS, Javascript, HTML
-        
