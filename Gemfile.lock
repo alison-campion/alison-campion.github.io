@@ -237,7 +237,7 @@ PLATFORMS
 DEPENDENCIES
   classifier-reborn
   css_parser
-  feedjira
+  feedjira (~> 2.2)
   httparty
   jekyll
   jekyll-archives (~> 2.2)
