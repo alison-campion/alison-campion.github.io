@@ -1,9 +1,16 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
+group :jekyll_plugins do
+  gem "jekyll", "~> 3.10"
+  gem "jekyll-scholar"
+  gem "jekyll-toc"
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate-v2"
+  gem "jemoji"
+end
 
 group :other_plugins do
   gem "httparty"
   gem "feedjira", "~> 2.2"
-
 end
