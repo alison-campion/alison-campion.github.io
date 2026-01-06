@@ -1,6 +1,8 @@
 github_users:
   - alison-campion
 
+repo_description_lines_max: 2
+
 github_repos:
   - devdatalab/paper-covid-comorbidities
   - devdatalab/masala-merge

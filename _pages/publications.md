@@ -6,10 +6,15 @@ description: publications by categories in reversed chronological order. generat
 years: [2022, 2020, 2018]
 working_years: [2025, 2026]
 nav: true
-nav_order: 1
+nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
+
+<!-- Bibsearch Feature -->
+
+{% include bib_search.liquid %}
+
 <div class="publications">
 
 <div class="header">

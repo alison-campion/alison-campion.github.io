@@ -22,7 +22,6 @@
       year: 2016
       description:
         - departmental honors
-
 - title: Academic Interests
   type: nested_list
   contents:
