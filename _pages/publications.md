@@ -17,7 +17,7 @@ nav_order: 2
 <h4> working papers </h4>
 </div>
 {%- for y in page.working_years %}
-  <h4 class="year">{{y}}</h2>
+  <h4 class="year">{{y}}</h4>
   {% bibliography -f working_papers -q @*[year={{y}}]* %}
 {% endfor %}
 
@@ -25,7 +25,7 @@ nav_order: 2
 <h4> published papers </h4>
 </div>
 {%- for y in page.years %}
-  <h4 class="year">{{y}}</h2>
+  <h4 class="year">{{y}}</h4>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
