@@ -39,13 +39,16 @@ GEM
       rexml
     csl-styles (1.0.1.11)
       csl (~> 1.0)
+    cssminify2 (2.1.0)
     csv (3.3.5)
     date (3.5.1)
+    deep_merge (1.2.2)
     drb (2.2.3)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    execjs (2.10.0)
     faraday (1.10.4)
       faraday-em_http (~> 1.0)
       faraday-em_synchrony (~> 1.0)
@@ -84,6 +87,7 @@ GEM
     html-pipeline (2.14.3)
       activesupport (>= 2)
       nokogiri (>= 1.4)
+    htmlcompressor (0.4.0)
     http_parser.rb (0.8.1)
     httparty (0.24.0)
       csv
@@ -108,10 +112,26 @@ GEM
       webrick (>= 1.0)
     jekyll-archives (2.3.0)
       jekyll (>= 3.6, < 5.0)
+    jekyll-email-protect (1.1.0)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-get-json (1.0.0)
+      deep_merge (~> 1.2)
+      jekyll (>= 3.0)
+    jekyll-imagemagick (1.4.0)
+      jekyll (>= 3.4)
+    jekyll-jupyter-notebook (0.0.6)
+      jekyll
+    jekyll-link-attributes (1.0.1)
+    jekyll-minifier (0.1.10)
+      cssminify2 (~> 2.0)
+      htmlcompressor (~> 0.4)
+      jekyll (>= 3.5)
+      json-minify (~> 0.0.3)
+      uglifier (~> 4.1)
     jekyll-paginate-v2 (3.0.0)
       jekyll (>= 3.0, < 5.0)
+    jekyll-regex-replace (1.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-scholar (5.16.0)
@@ -121,9 +141,12 @@ GEM
       jekyll (~> 3.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-tabs (1.2.1)
+      jekyll (>= 3.0, < 5.0)
     jekyll-toc (0.19.0)
       jekyll (>= 3.9)
       nokogiri (~> 1.12)
+    jekyll-twitter-plugin (2.1.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jemoji (0.13.0)
@@ -131,6 +154,8 @@ GEM
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
     json (2.18.0)
+    json-minify (0.0.3)
+      json (> 0)
     kramdown (2.4.0)
       rexml
     latex-decode (0.4.0)
@@ -182,6 +207,8 @@ GEM
       date
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    uglifier (4.2.1)
+      execjs (>= 0.3.0, < 3)
     uri (1.1.1)
     webrick (1.9.2)
 
@@ -194,11 +221,20 @@ DEPENDENCIES
   httparty
   jekyll (~> 3.10)
   jekyll-archives
+  jekyll-email-protect
   jekyll-feed
+  jekyll-get-json
+  jekyll-imagemagick
+  jekyll-jupyter-notebook
+  jekyll-link-attributes
+  jekyll-minifier
   jekyll-paginate-v2
+  jekyll-regex-replace
   jekyll-scholar
   jekyll-sitemap
+  jekyll-tabs
   jekyll-toc
+  jekyll-twitter-plugin
   jemoji
 
 BUNDLED WITH
