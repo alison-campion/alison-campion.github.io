@@ -1,6 +1,5 @@
 ---
-layout: cv
+layout: cv-pdf-only
 permalink: /cv/
-title: CV
-cv_pdf: acampionCV.pdf
+title: "Curriculum Vitae"
 ---
