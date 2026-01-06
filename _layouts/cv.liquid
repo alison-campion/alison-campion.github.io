@@ -1,15 +1,15 @@
 {% comment %}
-Minimal CV layout: Only embeds the PDF, no HTML CV formatting.
+  Minimal CV layout: Only embeds the PDF, no HTML CV formatting.
 {% endcomment %}
 
 <main class="cv-pdf-container" style="text-align: center; padding: 2rem 0;">
-  <iframe 
-    src="{{ '/assets/pdf/acampionCV.pdf' | relative_url }}" 
-    width="90%" 
-    height="1200px" 
-    style="border: none; max-width: 900px;">
-    Your browser does not support PDFs. 
+  <iframe
+    src="{{ '/assets/pdf/acampionCV.pdf' | relative_url }}"
+    width="90%"
+    height="1200px"
+    style="border: none; max-width: 900px;"
+  >
+    Your browser does not support PDFs.
     <a href="{{ '/assets/pdf/acampionCV.pdf' | relative_url }}">Download the PDF</a>
   </iframe>
 </main>
-
