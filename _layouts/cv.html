@@ -3,7 +3,6 @@ layout: default
 ---
 
 <div class="post">
-
   <!-- Page header (same structure as about page) -->
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
@@ -11,23 +10,13 @@ layout: default
 
   <article>
     <div class="clearfix">
-
       <!-- Embedded CV PDF -->
-      <div style="text-align: center; padding: 2rem 0;">
-        <iframe
-          src="{{ '/assets/pdf/acampionCV.pdf' | relative_url }}"
-          width="90%"
-          height="1200px"
-          style="border: none; max-width: 900px;"
-        >
+      <div style="text-align: center; padding: 2rem 0">
+        <iframe src="{{ '/assets/pdf/acampionCV.pdf' | relative_url }}" width="90%" height="1200px" style="border: none; max-width: 900px">
           Your browser does not support PDFs.
-          <a href="{{ '/assets/pdf/acampionCV.pdf' | relative_url }}">
-            Download the PDF
-          </a>
+          <a href="{{ '/assets/pdf/acampionCV.pdf' | relative_url }}"> Download the PDF </a>
         </iframe>
       </div>
-
     </div>
   </article>
-
 </div>
